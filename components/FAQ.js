@@ -48,7 +48,7 @@ export default function FAQ() {
         Of course! Everything is public on the blockchain, so please check out
         the contract on{" "}
         <a
-          href="https://bscscan.com/token/__contractAddress__#code"
+          href="https://bscscan.com/address/0x92a6Fd4d16c5A55C9f138DA1Db7A99254148c829#code"
           target="_blank"
         >
           bscscan
