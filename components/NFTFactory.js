@@ -73,7 +73,6 @@ export default function NFTFactory() {
     const numNftsFromCall = (await getTokenId()).toNumber();
     const checkForWinner = (await getWinner()).toString();
     const mintedStatusFromCall = await mintedStatus();
-    alert(mintedStatusFromCall);
     if (checkForWinner != "0x0000000000000000000000000000000000000000") {
       setWinner(checkForWinner);
     }
